@@ -1,21 +1,4 @@
 
-#Frank's script doesn't actually run a pipeline. It does each task then deletes the output
-#That makes each step more or less useless
-
-#Questions/Issues:
-#1. Where do we want to store the references? /mnt?
-#2. Need Spark setup/install/configure script (cgcloud,ec2,whatever)
-#-df replication set to 2 in hdfs-site.xml
-#-9001 port removed from mapred-site.xml
-#eph-sbin start all
-#eph/bin make NA12878 dir
-#--hadoop-major-version=2
-#3. S3-downloader jar needs to be installed at ~/ during the setup
-#4. ADAM install
-#https://s3-us-west-2.amazonaws.com/bd2k-artifacts/adam/adam-distribution-0.16.1-SNAPSHOT-bin-PR593.tar.bz2
-# tar -xvjf adam-dis-ETC
-
-#5 Follow gatk process, delete as go.
 
 
 set -e
